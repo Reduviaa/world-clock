@@ -1,13 +1,13 @@
 body {
-  background-color: #f2ebf1;
-  font-family: sans-serif;
+  background-color: #f0dbdb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
   text-align: center;
-  font-size: 36px;
+  font-size: 40px;
 }
 h2 {
-  margin: 0 0 10px;
+  margin: 0 0 6px;
   font-size: 28px;
 }
 select {
@@ -16,12 +16,16 @@ select {
   padding: 6px;
   border-radius: 5px;
   font-size: 17px;
-  font-family: sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 footer {
   text-align: center;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.7);
+}
+a {
+  text-decoration: none;
+  color: #5c8984;
 }
 .container {
   max-width: 600px;
@@ -35,6 +39,7 @@ footer {
 .city {
   display: flex;
   justify-content: space-between;
+  margin: 5px 0;
   padding: 25px 0;
   border-bottom: 1px dashed #b7b7b7;
 }
@@ -43,7 +48,6 @@ footer {
 }
 .time {
   font-size: 40px;
-  font-weight: bold;
 }
 .time small {
   font-size: 20px;
